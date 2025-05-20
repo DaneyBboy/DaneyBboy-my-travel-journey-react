@@ -18,9 +18,10 @@ function Main(props) {
         <h4 style={{ letterSpacing: "5px", display: "inline", color:"#2B283A" }}>
           {props.item.location}
         </h4>
-        <p style={{ textDecoration: "underline", display: "inline", color:"#918E9B" }}>
-          View on Google Maps
-        </p>
+
+        <a style={{ textDecoration: "underline", display: "inline", color:"#918E9B" }}href= {props.item.link} target="_blank">View on Google Maps</a>
+       
+        
 
         <h1 style={{color:"#2B283A"}}>{props.item.place}</h1>
 
