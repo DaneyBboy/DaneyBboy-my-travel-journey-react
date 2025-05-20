@@ -1,3 +1,6 @@
+# React Static Travel Single Page
+This Project I impleleted the page using props .map array function.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
